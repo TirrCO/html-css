@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<title>Mídias em HTML5</title>
+	<style>
+		body {
+			background-color: teal;
+		}
+	</style>
+</head>
+<body>
+	<h1>Imagens dinâmicas</h1>
+    <hr>
+	<p>Tente abrir este site em vários dispositivos diferentes ou simplesmente diminua o tamanho do seu navegador.</p>
+	
+	<picture>
+		<source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+		<source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+		<img src="imagens/foto-g.png" alt="&nbsp;Imagem flexível">
+	</picture>
+
+	<h1>Reproduzindo áudio</h1>
+	<p>Vamos aprender a fazer isso em HTML5.</p>
+	<audio src="midia/smokeys-lounge-tracktribe.mp3" controls autoplay></audio> <!-- MP3 WAV OGG -->
+	<h1>Vídeos com HTML5</h1>
+	<p>Inserindo vídeos hospedados localmente.</p>
+	<video width="560" poster="imagens/capachuvinha.png" controls loop>
+		<source src="midia/chuvinhanaserra.m4v" type="video/mp4">
+		<source src="midia/chuvinhanaserra.webm" type="video/webm">
+		<source src="midia/chuvinhanaserra.mp4" type="video/mp4">
+		<p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+	</video>
+	
+	<p>Inserindo vídeos do YouTube</p>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/zrIfhUVB_3o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<p>Inserindo vídeos do Vimeo</p>
+	<iframe src="https://player.vimeo.com/video/71127606?h=d543aa14ac" width="560" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Teste de Responsividade</title>
+    <style>
+        body {
+            background-color: teal;
+        }
+
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            min-width: 260px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        img { /* SUPER PREFIRO ESSE AQUI em vez do: <picture> <source media max width...> */
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+	<main>
+        <h1>Testando a responsividade</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quaerat saepe assumenda omnis. Ad explicabo nam soluta quod asperiores dolorem doloremque dolor, ea unde deserunt possimus. Sit perferendis doloremque rem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad earum accusantium provident ex neque dolores necessitatibus quis? Commodi, ea ullam necessitatibus, voluptatibus ratione optio deserunt ut quisquam accusantium obcaecati sapiente. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique voluptatibus aspernatur cum aliquam id praesentium facere, tenetur ullam porro, optio iusto inventore quis doloremque, eos unde magni eveniet facilis labore.</p>
+        <picture>
+            <source media="(max-width: 600px)" srcset="pacote-projeto-d010/imagens/irina-blok-pq.jpg">
+            <img src="pacote-projeto-d010/imagens/irina-blok.jpg" alt="Irina Blok">
+        </picture>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quaerat saepe assumenda omnis. Ad explicabo nam soluta quod asperiores dolorem doloremque dolor, ea unde deserunt possimus. Sit perferendis doloremque rem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad earum accusantium provident ex neque dolores necessitatibus quis? Commodi, ea ullam necessitatibus, voluptatibus ratione optio deserunt ut quisquam accusantium obcaecati sapiente. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique voluptatibus aspernatur cum aliquam id praesentium facere, tenetur ullam porro, optio iusto inventore quis doloremque, eos unde magni eveniet facilis labore.</p>
+    </main>
+</body>
+</html>

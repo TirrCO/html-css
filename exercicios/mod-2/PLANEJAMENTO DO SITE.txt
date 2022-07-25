@@ -1,0 +1,12 @@
+1) LAYOUT
+- MockFlow
+- Figma
+- AdobeXD
+
+2) PALETA DE CORES
+- Adobe Color
+- Coolors
+
+3) FONTES
+- Google Fonts
+- DaFont

@@ -1,0 +1,1 @@
+- mexer nas dimensões do link do vídeo pra quando dimensionar a janela
